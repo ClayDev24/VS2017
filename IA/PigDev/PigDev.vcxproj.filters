@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="fontes">
+      <UniqueIdentifier>{1f95eb22-bf95-4b84-ad8f-d702135f6c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SDL">
+      <UniqueIdentifier>{435ac45c-d268-4e18-ac0a-8415bd217d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SDL_image">
+      <UniqueIdentifier>{b09f760b-af15-43fd-b9d3-0e8aa1a8873d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video">
+      <UniqueIdentifier>{9f6ab352-3cf7-4f0c-9ef9-856128719b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavcodec">
+      <UniqueIdentifier>{b78d657e-ecdd-45fc-952e-84b79e20dfb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavdevice">
+      <UniqueIdentifier>{6df120ba-78a6-4a4f-beed-d253f78e09fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavfilter">
+      <UniqueIdentifier>{ec539fa8-2216-43d3-90f3-d4fc9cc83bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavformat">
+      <UniqueIdentifier>{c61a1069-f572-41ad-aa25-a6eb882cc4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavresample">
+      <UniqueIdentifier>{cb90f407-e26c-4794-b19b-bff052222785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavutil">
+      <UniqueIdentifier>{c06770e4-eded-4142-8773-0c5f623615a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libpostproc">
+      <UniqueIdentifier>{d3a29705-a126-435f-8ae9-86bd9d0cf2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libwresample">
+      <UniqueIdentifier>{5f79bc90-b5a0-43a7-9317-057e435c10a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libwscale">
+      <UniqueIdentifier>{bb27e0e0-5c0b-4555-885b-d6a8da175f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavresample\aarch64">
+      <UniqueIdentifier>{71ea35a6-d67d-4828-ad67-d80953e9c69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavresample\arm">
+      <UniqueIdentifier>{6f089787-dfbb-41d9-9912-560da028413e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavresample\tests">
+      <UniqueIdentifier>{4da76beb-4e75-47d9-ac80-d7f71617b0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\video\libavresample\x86">
+      <UniqueIdentifier>{c160ddae-8b54-49f8-be60-93011ac65cae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_bmp.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_gif.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_jpg.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_lbm.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_pcx.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_png.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_pnm.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_tga.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_tif.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_webp.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_xcf.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_xpm.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_xv.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\IMG_xxx.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\SDL_image\showimage.c">
+      <Filter>include\SDL_image</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\audio_convert.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\audio_data.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\audio_mix.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\audio_mix_matrix.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\dither.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\options.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\resample.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\resample_template.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\utils.c">
+      <Filter>include\video\libavresample</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\aarch64\audio_convert_init.c">
+      <Filter>include\video\libavresample\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\aarch64\neontest.c">
+      <Filter>include\video\libavresample\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\aarch64\resample_init.c">
+      <Filter>include\video\libavresample\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\arm\audio_convert_init.c">
+      <Filter>include\video\libavresample\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\arm\neontest.c">
+      <Filter>include\video\libavresample\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\arm\resample_init.c">
+      <Filter>include\video\libavresample\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\x86\audio_convert_init.c">
+      <Filter>include\video\libavresample\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\x86\audio_mix_init.c">
+      <Filter>include\video\libavresample\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\x86\dither_init.c">
+      <Filter>include\video\libavresample\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\x86\w64xmmtest.c">
+      <Filter>include\video\libavresample\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="include\video\libavresample\tests\avresample.c">
+      <Filter>include\video\libavresample\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CPIGAnimacao.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGAreaDeTexto.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGAssetLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGAtributos.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGAudio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGAutomacao.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGBotao.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGBotaoClick.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGBotaoOnOff.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGCaixaTexto.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGCampoTextoESenha.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGCheckBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGClienteTCP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGComponente.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGControle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGDropDown.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGErros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGFilaPacotes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGFonte.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGFonteDinamica.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGForm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGauge.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGaugeBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGaugeCircular.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGeradorParticulas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGeradorPoligonos.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorAudios.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorControles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorFontes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorForms.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorGDP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorJanelas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorLabels.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorSockets.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorSprites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorTelas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorTimers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGGerenciadorVideos.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGItemComponente.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGJanela.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGJogo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGLabel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGListaItemComponente.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGListBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGModoAnimacao.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGMouse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGObjeto.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGOffscreenRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGParticula.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGRadioBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGRepositorio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGSequenciaTransicoes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGServidorTCP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGSlideBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGSocketTCP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGSocketUDP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGStringFormatada.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGTela.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGTimer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGTransicao.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CPIGVideo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PIG.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PIGFuncoesBasicas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PIGTipos.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\begin_code.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\close_code.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_assert.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_atomic.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_audio.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_bits.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_blendmode.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_clipboard.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_config.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_cpuinfo.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_egl.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_endian.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_error.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_events.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_filesystem.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_gamecontroller.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_gesture.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_haptic.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_hints.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_joystick.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_keyboard.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_keycode.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_loadso.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_log.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_main.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_messagebox.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_mixer.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_mouse.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_mutex.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_name.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_net.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengl.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengl_glext.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengles.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengles2.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengles2_gl2.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengles2_gl2ext.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengles2_gl2platform.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_opengles2_khrplatform.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_pixels.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_platform.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_power.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_quit.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_rect.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_render.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_revision.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_rwops.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_scancode.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_shape.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_stdinc.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_surface.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_system.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_syswm.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_assert.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_common.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_compare.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_crc32.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_font.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_fuzzer.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_harness.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_images.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_log.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_md5.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_memory.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_test_random.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_thread.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_timer.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_touch.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_ttf.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_types.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_version.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_video.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL\SDL_vulkan.h">
+      <Filter>include\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_image\miniz.h">
+      <Filter>include\SDL_image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDL_image\SDL_image.h">
+      <Filter>include\SDL_image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\ac3_parser.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\adts_parser.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\avcodec.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\avdct.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\avfft.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\d3d11va.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\dirac.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\dv_profile.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\dxva2.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\jni.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\mediacodec.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\qsv.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\vaapi.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\vdpau.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\version.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\videotoolbox.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\vorbis_parser.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavcodec\xvmc.h">
+      <Filter>include\video\libavcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavdevice\avdevice.h">
+      <Filter>include\video\libavdevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavdevice\version.h">
+      <Filter>include\video\libavdevice</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavfilter\avfilter.h">
+      <Filter>include\video\libavfilter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavfilter\buffersink.h">
+      <Filter>include\video\libavfilter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavfilter\buffersrc.h">
+      <Filter>include\video\libavfilter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavfilter\version.h">
+      <Filter>include\video\libavfilter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavformat\avformat.h">
+      <Filter>include\video\libavformat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavformat\avio.h">
+      <Filter>include\video\libavformat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavformat\version.h">
+      <Filter>include\video\libavformat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\audio_convert.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\audio_data.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\audio_mix.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\avresample.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\dither.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\internal.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\resample.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\version.h">
+      <Filter>include\video\libavresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\adler32.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\aes.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\aes_ctr.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\attributes.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\audio_fifo.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\avassert.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\avconfig.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\avstring.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\avutil.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\base64.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\blowfish.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\bprint.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\bswap.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\buffer.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\camellia.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\cast5.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\channel_layout.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\common.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\cpu.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\crc.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\des.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\dict.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\display.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\downmix_info.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\encryption_info.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\error.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\eval.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\ffversion.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\fifo.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\file.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\frame.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hash.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hmac.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_cuda.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_d3d11va.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_drm.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_dxva2.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_mediacodec.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_qsv.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_vaapi.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_vdpau.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\hwcontext_videotoolbox.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\imgutils.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\intfloat.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\intreadwrite.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\lfg.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\log.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\lzo.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\macros.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\mastering_display_metadata.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\mathematics.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\md5.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\mem.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\motion_vector.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\murmur3.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\opt.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\parseutils.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\pixdesc.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\pixelutils.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\pixfmt.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\random_seed.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\rational.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\rc4.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\replaygain.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\ripemd.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\samplefmt.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\sha.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\sha512.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\spherical.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\stereo3d.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\tea.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\threadmessage.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\time.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\timecode.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\timestamp.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\tree.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\twofish.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\version.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavutil\xtea.h">
+      <Filter>include\video\libavutil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libpostproc\postprocess.h">
+      <Filter>include\video\libpostproc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libpostproc\version.h">
+      <Filter>include\video\libpostproc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libswresample\swresample.h">
+      <Filter>include\video\libwresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libswresample\version.h">
+      <Filter>include\video\libwresample</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libswscale\swscale.h">
+      <Filter>include\video\libwscale</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libswscale\version.h">
+      <Filter>include\video\libwscale</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\aarch64\asm-offsets.h">
+      <Filter>include\video\libavresample\aarch64</Filter>
+    </ClInclude>
+    <ClInclude Include="include\video\libavresample\arm\asm-offsets.h">
+      <Filter>include\video\libavresample\arm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="include\video\libavresample\avresampleres.rc">
+      <Filter>include\video\libavresample</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\video\libavresample\libavresample.v">
+      <Filter>include\video\libavresample</Filter>
+    </None>
+    <None Include="include\video\libavresample\Makefile">
+      <Filter>include\video\libavresample</Filter>
+    </None>
+    <None Include="include\video\libavresample\aarch64\audio_convert_neon.S">
+      <Filter>include\video\libavresample\aarch64</Filter>
+    </None>
+    <None Include="include\video\libavresample\aarch64\Makefile">
+      <Filter>include\video\libavresample\aarch64</Filter>
+    </None>
+    <None Include="include\video\libavresample\aarch64\resample_neon.S">
+      <Filter>include\video\libavresample\aarch64</Filter>
+    </None>
+    <None Include="include\video\libavresample\arm\audio_convert_neon.S">
+      <Filter>include\video\libavresample\arm</Filter>
+    </None>
+    <None Include="include\video\libavresample\arm\Makefile">
+      <Filter>include\video\libavresample\arm</Filter>
+    </None>
+    <None Include="include\video\libavresample\arm\resample_neon.S">
+      <Filter>include\video\libavresample\arm</Filter>
+    </None>
+    <None Include="include\video\libavresample\x86\audio_convert.asm">
+      <Filter>include\video\libavresample\x86</Filter>
+    </None>
+    <None Include="include\video\libavresample\x86\audio_mix.asm">
+      <Filter>include\video\libavresample\x86</Filter>
+    </None>
+    <None Include="include\video\libavresample\x86\dither.asm">
+      <Filter>include\video\libavresample\x86</Filter>
+    </None>
+    <None Include="include\video\libavresample\x86\Makefile">
+      <Filter>include\video\libavresample\x86</Filter>
+    </None>
+    <None Include="include\video\libavresample\x86\util.asm">
+      <Filter>include\video\libavresample\x86</Filter>
+    </None>
+  </ItemGroup>
+</Project>
